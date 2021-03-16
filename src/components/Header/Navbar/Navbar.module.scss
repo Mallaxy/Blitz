@@ -1,0 +1,23 @@
+$color1: #474747;
+$color2: #bcbcbc;
+
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  .link {
+    display: grid;
+    grid-template-rows: 2fr 3fr;
+    .subtitle {
+      font-size: 12px;
+      color: $color2;
+    }
+    .title {
+      font-size: 20px;
+      color: $color1;
+    }
+  }
+}
+

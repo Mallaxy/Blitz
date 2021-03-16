@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+.header {
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+.header .logo {
+  font-size: 40px;
+  font-family: Pacifico, sans-serif;
+}
+.header .navbar {
+  padding: 0 10px;
+  justify-self: end;
+  align-self: center;
+}
+
+/*# sourceMappingURL=Header.module.css.map */
